@@ -1,0 +1,48 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.login-button {
+    /* background-color: rgb(0, 225, 255); */
+    color:white;
+    box-shadow: gray;
+    border-radius: 5%;
+    width: 20%;
+    /* padding: 20px; */
+    text-align: center;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+}
+
+.login-button img {
+
+    height: 40px;
+    width: 50px;
+    padding: 5px;
+}
+
+.login-button p {
+
+    margin-left: 35px;
+
+}
+
+
+.login-page {
+    margin: 10% 0;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.heading {
+
+    font-size: larger;
+    font-weight: bold;
+    padding: 10px;
+}
+
+

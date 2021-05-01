@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.heading {
+
+        padding: 20px;
+}
+
+.options {
+
+    padding: 20px;
+}
+.options ul {
+    width: auto;
+    list-style-type: none;
+}
+
+.options .headerButton {
+
+    display: inline;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 15px;
+}

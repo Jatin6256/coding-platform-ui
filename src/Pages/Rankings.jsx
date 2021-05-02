@@ -36,7 +36,9 @@ function Rankings(params) {
     ];
     return (
         <div>
-            <NavBar />
+            <NavBar 
+                id="1"
+            />
             {registeredStudent.map( student => 
                 <RankingCard
                     key={student.key}

@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
 
 body {
 
@@ -21,7 +21,7 @@ body {
     color: white;
     background-color: rgba(255, 255, 255, 0.171);
     float: left;
-    font-family: cursive;
+    font-family: 'PT Serif', serif;
 }
 
 .card h1,h2,h3,h4 {

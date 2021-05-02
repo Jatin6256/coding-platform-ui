@@ -27,7 +27,9 @@ function PastEvents(params) {
     ]
     return (
         <div>
-            <NavBar />
+            <NavBar 
+                id="2"
+            />
             {prevEvents.map(
                 event => {
                     var { date } = event;

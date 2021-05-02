@@ -1,6 +1,7 @@
 import React from "react"
 import "../css/ProblemCard.css"
-import HeaderButton from "./HeaderButton"
+import HeaderButton from "./HeaderButton";
+
 
 function ProblemCard(props) {
     
@@ -8,12 +9,22 @@ function ProblemCard(props) {
         <div className="problemCard">
             <h1> Question {props.questionNumber} :</h1>
             <p> {props.question} </p>
-            <form>
+            { !props.isPastEvent ? <form>
                 <label for="myfile">Select a file:</label>
                 <input type="file" id="myfile" name="myfile" />
-                <input type="submit" value="Submit"  />
+                <input className="button" type="submit" value="Submit"  />
         
-            </form>
+            </form> :
+            <HeaderButton 
+                to="#"
+                className="headerButton"
+                title="Download Test Cases"
+                backgroundColor="white"
+                hoverColor="black"
+                textColor="black"
+                hoverTextColor="white"
+            />
+            }
 
         </div>
     );

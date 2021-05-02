@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
 .problemCard {
 
     padding: 20px;
@@ -14,20 +14,24 @@
     color: white;
     background-color: rgba(255, 255, 255, 0.171);
     float: left;
-    font-family: cursive;
+    font-family: 'PT Serif', serif;
 }
 
 .problemCard h1,h2,h3,h4 {
     padding: 6px 0;
 }
 
-.problemCard p {
+.problemCard pre {
     padding: 6px 50px;
 }
-.headerButton {
+.button {
 
-    display: inline;
     padding: 10px;
     border-radius: 20px;
     margin: 15px;
+}
+
+label {
+
+    padding: 10px;
 }

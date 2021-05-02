@@ -1,7 +1,6 @@
 import React from "react"
 import { Route, Switch,  BrowserRouter as Router } from 'react-router-dom'
 import ErrorPage from "./Pages/ErrorPage";
-import HomePage from "./Pages/HomePage";
 import LiveEvents from "./Pages/LiveEvents";
 import LoginPage from "./Pages/LoginPage"
 import PastEvents from "./Pages/PastEvenst";
@@ -13,11 +12,10 @@ function App() {
     <div className="App">
       <Router>
         <Switch>
-          <Route exact path="/" component={HomePage} />
+          <Route exact path="/" component={Rankings} />
           <Route path="/login" component={LoginPage} />
           <Route path="/pastEvents" component={PastEvents} />
           <Route path="/liveEvents" component={LiveEvents} />
-          <Route path="/rankings" component={Rankings} />
           <Route path="/problems/:type" component={Problems} />
           <Route component={ErrorPage} />
         </Switch>

@@ -21,7 +21,9 @@ function LiveEvents(params) {
     ]
     return (
         <div>
-            <NavBar />
+            <NavBar 
+                id="3"
+            />
             {liveEvents.map(
                 event => {
                     var { date } = event;

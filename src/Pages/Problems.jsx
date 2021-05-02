@@ -12,7 +12,14 @@ function Problems() {
             question: "You are given an array  of length  and can perform the following operation on the array: Select a subarray from array  having the same value of elements and decrease the value of all the elements in that subarray by any positive integer .Find the minimum number of operations required to make all the elements of array  equal to zero.",
             
 
-        }
+        },
+        {
+            questionNumber: 2,
+            question: "You are given an array  of length  and can perform the following operation on the array: Select a subarray from array  having the same value of elements and decrease the value of all the elements in that subarray by any positive integer .Find the minimum number of operations required to make all the elements of array  equal to zero.",
+            
+
+        },
+        
     ];
     return (
     <div>
@@ -21,7 +28,7 @@ function Problems() {
             <ProblemCard 
                 questionNumber={question.questionNumber}
                 question={question.question}
-                title={params.type == "past" ? "Download test cases" : "submit" }
+                isPastEvent={params.type === "past" ? true : false }
                 to="#"
             />
         )}

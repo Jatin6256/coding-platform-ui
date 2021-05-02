@@ -1,12 +1,5 @@
 
-
-body {
-
-    background-color: rgba(0, 0, 0, 0.856);
-    color: white;
-}
-
-.card {
+.eventCard {
 
     padding: 15px;
     margin: 40px;
@@ -24,15 +17,10 @@ body {
     font-family: cursive;
 }
 
-.card h1,h2,h3,h4 {
-    padding: 3px 0;
-}
+.headerButton {
 
-.profileImage {
-
-    border-radius: 50%;
-    height: 90px;
-    width: 90px;
-    border-color: black;
-    border-width: 3px;
+    display: inline;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 15px;
 }

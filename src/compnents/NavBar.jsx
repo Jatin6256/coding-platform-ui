@@ -36,7 +36,7 @@ function NavBar(props){
             <div className="options"> 
                 <ul>
                     { options.map( item => 
-                    props.id != item.key ? <HeaderButton 
+                    props.id !== item.key ? <HeaderButton 
                             key={item.key}
                             to={item.to}
                             className="headerButton"
